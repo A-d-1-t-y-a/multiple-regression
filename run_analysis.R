@@ -9,6 +9,18 @@ library(car)
 library(lmtest)
 library(broom)
 
+# Print current working directory to help debug
+cat("Current Working Directory:", getwd(), "\n")
+
+# Attempt to set working directory to script location if in RStudio
+if (interactive() && requireNamespace("rstudioapi", quietly = TRUE)) {
+  script_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+  if (script_dir != "") {
+    setwd(script_dir)
+    cat("Updated Working Directory to script location:", getwd(), "\n")
+  }
+}
+
 # Create plots directory
 if (!dir.exists("plots")) {
   dir.create("plots")
@@ -19,7 +31,7 @@ if (!dir.exists("plots")) {
 # Path is relative to the project root
 data_path <- file.path("data-sets", "mlr_data", "mlr0.csv")
 if (!file.exists(data_path)) {
-  stop("Data file not found: ", data_path)
+  stop("Data file not found at: ", file.path(getwd(), data_path), "\n  Please ensure your working directory is set to the project root.")
 }
 data <- read.csv(data_path)
 
