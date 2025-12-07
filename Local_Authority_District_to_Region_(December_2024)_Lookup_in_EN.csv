@@ -1,0 +1,310 @@
+LAD24CD,LAD24NM,RGN24CD,RGN24NM
+E00006001,District_1,E120004,North West
+E00006002,District_2,E120006,Yorkshire and The Humber
+E00006003,District_3,E120001,East Midlands
+E00006004,District_4,E120005,South West
+E00006005,District_5,E120008,West Midlands
+E00006006,District_6,E120005,Yorkshire and The Humber
+E00006007,District_7,E120004,South East
+E00006008,District_8,E120005,Yorkshire and The Humber
+E00006009,District_9,E120005,North West
+E00006010,District_10,E120008,South West
+E00006011,District_11,E120005,London
+E00006012,District_12,E120005,South West
+E00006013,District_13,E120002,East Midlands
+E00006014,District_14,E120003,West Midlands
+E00006015,District_15,E120003,North East
+E00006016,District_16,E120009,Yorkshire and The Humber
+E00006017,District_17,E120005,West Midlands
+E00006018,District_18,E120006,London
+E00006019,District_19,E120009,East Midlands
+E00006020,District_20,E120007,North West
+E00006021,District_21,E120008,East Midlands
+E00006022,District_22,E120003,London
+E00006023,District_23,E120006,North West
+E00006024,District_24,E120006,East Midlands
+E00006025,District_25,E120002,East Midlands
+E00006026,District_26,E120007,North West
+E00006027,District_27,E120009,Yorkshire and The Humber
+E00006028,District_28,E120006,London
+E00006029,District_29,E120006,Yorkshire and The Humber
+E00006030,District_30,E120008,North West
+E00006031,District_31,E120004,London
+E00006032,District_32,E120005,London
+E00006033,District_33,E120005,Yorkshire and The Humber
+E00006034,District_34,E120005,South West
+E00006035,District_35,E120007,West Midlands
+E00006036,District_36,E120004,North East
+E00006037,District_37,E120004,London
+E00006038,District_38,E120006,London
+E00006039,District_39,E120008,South East
+E00006040,District_40,E120005,North East
+E00006041,District_41,E120008,South West
+E00006042,District_42,E120009,North East
+E00006043,District_43,E120008,Yorkshire and The Humber
+E00006044,District_44,E120006,Yorkshire and The Humber
+E00006045,District_45,E120007,West Midlands
+E00006046,District_46,E120003,West Midlands
+E00006047,District_47,E120005,Yorkshire and The Humber
+E00006048,District_48,E120008,South East
+E00006049,District_49,E120006,South East
+E00006050,District_50,E120001,London
+E00006051,District_51,E120002,South East
+E00006052,District_52,E120001,North East
+E00006053,District_53,E120001,South East
+E00006054,District_54,E120006,East Midlands
+E00006055,District_55,E120002,London
+E00006056,District_56,E120005,East Midlands
+E00006057,District_57,E120001,Yorkshire and The Humber
+E00006058,District_58,E120005,South West
+E00006059,District_59,E120002,West Midlands
+E00006060,District_60,E120008,North East
+E00006061,District_61,E120003,South West
+E00006062,District_62,E120003,East Midlands
+E00006063,District_63,E120007,North East
+E00006064,District_64,E120009,Yorkshire and The Humber
+E00006065,District_65,E120003,East of England
+E00006066,District_66,E120009,North West
+E00006067,District_67,E120006,South East
+E00006068,District_68,E120008,West Midlands
+E00006069,District_69,E120003,Yorkshire and The Humber
+E00006070,District_70,E120003,East Midlands
+E00006071,District_71,E120009,South West
+E00006072,District_72,E120001,South East
+E00006073,District_73,E120004,West Midlands
+E00006074,District_74,E120004,South West
+E00006075,District_75,E120005,North West
+E00006076,District_76,E120009,Yorkshire and The Humber
+E00006077,District_77,E120007,West Midlands
+E00006078,District_78,E120009,East of England
+E00006079,District_79,E120006,South West
+E00006080,District_80,E120007,East of England
+E00006081,District_81,E120007,East of England
+E00006082,District_82,E120008,South West
+E00006083,District_83,E120003,North East
+E00006084,District_84,E120001,West Midlands
+E00006085,District_85,E120002,Yorkshire and The Humber
+E00006086,District_86,E120002,Yorkshire and The Humber
+E00006087,District_87,E120005,South East
+E00006088,District_88,E120007,Yorkshire and The Humber
+E00006089,District_89,E120005,East Midlands
+E00006090,District_90,E120004,South West
+E00006091,District_91,E120006,London
+E00006092,District_92,E120007,London
+E00006093,District_93,E120003,West Midlands
+E00006094,District_94,E120003,East of England
+E00006095,District_95,E120007,London
+E00006096,District_96,E120005,West Midlands
+E00006097,District_97,E120006,East of England
+E00006098,District_98,E120002,West Midlands
+E00006099,District_99,E120003,East of England
+E00006100,District_100,E120001,West Midlands
+E00006101,District_101,E120004,London
+E00006102,District_102,E120008,East of England
+E00006103,District_103,E120002,North West
+E00006104,District_104,E120006,East of England
+E00006105,District_105,E120004,London
+E00006106,District_106,E120002,North West
+E00006107,District_107,E120001,South West
+E00006108,District_108,E120003,East Midlands
+E00006109,District_109,E120007,West Midlands
+E00006110,District_110,E120002,North West
+E00006111,District_111,E120003,North West
+E00006112,District_112,E120002,London
+E00006113,District_113,E120008,East Midlands
+E00006114,District_114,E120004,South East
+E00006115,District_115,E120004,North West
+E00006116,District_116,E120002,South West
+E00006117,District_117,E120004,Yorkshire and The Humber
+E00006118,District_118,E120008,East of England
+E00006119,District_119,E120006,South East
+E00006120,District_120,E120008,South West
+E00006121,District_121,E120008,East of England
+E00006122,District_122,E120009,East Midlands
+E00006123,District_123,E120006,London
+E00006124,District_124,E120009,North West
+E00006125,District_125,E120007,London
+E00006126,District_126,E120001,East Midlands
+E00006127,District_127,E120003,South East
+E00006128,District_128,E120002,London
+E00006129,District_129,E120005,West Midlands
+E00006130,District_130,E120003,North West
+E00006131,District_131,E120002,North West
+E00006132,District_132,E120004,East Midlands
+E00006133,District_133,E120006,South East
+E00006134,District_134,E120008,North East
+E00006135,District_135,E120004,South East
+E00006136,District_136,E120007,South East
+E00006137,District_137,E120001,London
+E00006138,District_138,E120009,East of England
+E00006139,District_139,E120005,London
+E00006140,District_140,E120005,London
+E00006141,District_141,E120001,West Midlands
+E00006142,District_142,E120007,North West
+E00006143,District_143,E120002,Yorkshire and The Humber
+E00006144,District_144,E120003,Yorkshire and The Humber
+E00006145,District_145,E120009,South West
+E00006146,District_146,E120001,Yorkshire and The Humber
+E00006147,District_147,E120002,Yorkshire and The Humber
+E00006148,District_148,E120008,South East
+E00006149,District_149,E120004,North East
+E00006150,District_150,E120003,East of England
+E00006151,District_151,E120006,London
+E00006152,District_152,E120009,Yorkshire and The Humber
+E00006153,District_153,E120008,London
+E00006154,District_154,E120009,North East
+E00006155,District_155,E120006,South East
+E00006156,District_156,E120003,South East
+E00006157,District_157,E120001,London
+E00006158,District_158,E120007,East Midlands
+E00006159,District_159,E120001,West Midlands
+E00006160,District_160,E120009,London
+E00006161,District_161,E120003,South East
+E00006162,District_162,E120003,London
+E00006163,District_163,E120006,North East
+E00006164,District_164,E120007,London
+E00006165,District_165,E120008,East of England
+E00006166,District_166,E120002,West Midlands
+E00006167,District_167,E120004,North West
+E00006168,District_168,E120001,Yorkshire and The Humber
+E00006169,District_169,E120004,South West
+E00006170,District_170,E120002,East of England
+E00006171,District_171,E120008,East Midlands
+E00006172,District_172,E120002,London
+E00006173,District_173,E120003,South East
+E00006174,District_174,E120007,East Midlands
+E00006175,District_175,E120005,Yorkshire and The Humber
+E00006176,District_176,E120002,West Midlands
+E00006177,District_177,E120003,North West
+E00006178,District_178,E120004,London
+E00006179,District_179,E120006,Yorkshire and The Humber
+E00006180,District_180,E120001,North East
+E00006181,District_181,E120002,London
+E00006182,District_182,E120009,North West
+E00006183,District_183,E120001,Yorkshire and The Humber
+E00006184,District_184,E120004,East Midlands
+E00006185,District_185,E120003,North West
+E00006186,District_186,E120009,Yorkshire and The Humber
+E00006187,District_187,E120006,East of England
+E00006188,District_188,E120004,North East
+E00006189,District_189,E120003,East of England
+E00006190,District_190,E120007,North East
+E00006191,District_191,E120008,South West
+E00006192,District_192,E120006,Yorkshire and The Humber
+E00006193,District_193,E120008,South East
+E00006194,District_194,E120007,London
+E00006195,District_195,E120001,London
+E00006196,District_196,E120003,South West
+E00006197,District_197,E120008,South West
+E00006198,District_198,E120007,London
+E00006199,District_199,E120003,London
+E00006200,District_200,E120002,Yorkshire and The Humber
+E00006201,District_201,E120003,North West
+E00006202,District_202,E120008,East Midlands
+E00006203,District_203,E120004,East of England
+E00006204,District_204,E120004,London
+E00006205,District_205,E120002,North East
+E00006206,District_206,E120006,London
+E00006207,District_207,E120006,South West
+E00006208,District_208,E120004,West Midlands
+E00006209,District_209,E120001,North East
+E00006210,District_210,E120003,Yorkshire and The Humber
+E00006211,District_211,E120008,West Midlands
+E00006212,District_212,E120007,East of England
+E00006213,District_213,E120009,Yorkshire and The Humber
+E00006214,District_214,E120005,South West
+E00006215,District_215,E120004,North East
+E00006216,District_216,E120001,South West
+E00006217,District_217,E120002,London
+E00006218,District_218,E120001,North East
+E00006219,District_219,E120003,London
+E00006220,District_220,E120004,North East
+E00006221,District_221,E120003,North West
+E00006222,District_222,E120006,North West
+E00006223,District_223,E120005,Yorkshire and The Humber
+E00006224,District_224,E120004,South West
+E00006225,District_225,E120002,North West
+E00006226,District_226,E120003,South West
+E00006227,District_227,E120006,North East
+E00006228,District_228,E120009,East of England
+E00006229,District_229,E120006,South East
+E00006230,District_230,E120004,South East
+E00006231,District_231,E120001,South East
+E00006232,District_232,E120004,North East
+E00006233,District_233,E120007,East of England
+E00006234,District_234,E120008,Yorkshire and The Humber
+E00006235,District_235,E120002,East of England
+E00006236,District_236,E120003,East of England
+E00006237,District_237,E120007,South East
+E00006238,District_238,E120001,South West
+E00006239,District_239,E120002,East of England
+E00006240,District_240,E120005,West Midlands
+E00006241,District_241,E120009,North West
+E00006242,District_242,E120001,East of England
+E00006243,District_243,E120009,South East
+E00006244,District_244,E120006,North West
+E00006245,District_245,E120001,East Midlands
+E00006246,District_246,E120003,South East
+E00006247,District_247,E120005,Yorkshire and The Humber
+E00006248,District_248,E120009,North West
+E00006249,District_249,E120008,North West
+E00006250,District_250,E120002,North West
+E00006251,District_251,E120006,West Midlands
+E00006252,District_252,E120006,West Midlands
+E00006253,District_253,E120003,North East
+E00006254,District_254,E120009,South East
+E00006255,District_255,E120004,North West
+E00006256,District_256,E120005,South East
+E00006257,District_257,E120005,West Midlands
+E00006258,District_258,E120004,North West
+E00006259,District_259,E120008,South West
+E00006260,District_260,E120002,North East
+E00006261,District_261,E120007,London
+E00006262,District_262,E120006,East Midlands
+E00006263,District_263,E120007,North West
+E00006264,District_264,E120001,Yorkshire and The Humber
+E00006265,District_265,E120004,West Midlands
+E00006266,District_266,E120007,South West
+E00006267,District_267,E120007,East Midlands
+E00006268,District_268,E120001,East Midlands
+E00006269,District_269,E120002,South West
+E00006270,District_270,E120006,Yorkshire and The Humber
+E00006271,District_271,E120005,London
+E00006272,District_272,E120007,East of England
+E00006273,District_273,E120007,West Midlands
+E00006274,District_274,E120006,Yorkshire and The Humber
+E00006275,District_275,E120006,South East
+E00006276,District_276,E120005,South East
+E00006277,District_277,E120006,Yorkshire and The Humber
+E00006278,District_278,E120003,North East
+E00006279,District_279,E120001,East Midlands
+E00006280,District_280,E120003,North East
+E00006281,District_281,E120007,West Midlands
+E00006282,District_282,E120001,East Midlands
+E00006283,District_283,E120008,London
+E00006284,District_284,E120003,Yorkshire and The Humber
+E00006285,District_285,E120002,North West
+E00006286,District_286,E120003,East Midlands
+E00006287,District_287,E120002,North West
+E00006288,District_288,E120005,East Midlands
+E00006289,District_289,E120005,East Midlands
+E00006290,District_290,E120001,South West
+E00006291,District_291,E120002,South East
+E00006292,District_292,E120002,East Midlands
+E00006293,District_293,E120003,South East
+E00006294,District_294,E120009,East Midlands
+E00006295,District_295,E120002,North West
+E00006296,District_296,E120009,South West
+E00006297,District_297,E120007,South West
+E00006298,District_298,E120008,West Midlands
+E00006299,District_299,E120009,South East
+E00006300,District_300,E120002,North West
+E00006301,District_301,E120004,London
+E00006302,District_302,E120009,South East
+E00006303,District_303,E120003,South East
+E00006304,District_304,E120008,North East
+E00006305,District_305,E120005,West Midlands
+E00006306,District_306,E120009,West Midlands
+E00006307,District_307,E120008,South West
+E00006308,District_308,E120001,West Midlands
+E00006309,District_309,E120009,South West
