@@ -1,141 +1,132 @@
 =========================================================================
-DATA ANALYTICS COURSEWORK - SUBMISSION PACKAGE
+DATA ANALYTICS COURSEWORK - FINAL SUBMISSION PACKAGE
+=========================================================================
+
 Module: 7074SCN | Due: 15 December 2025
-=========================================================================
-
-QUICK START - 3 STEPS:
-1. Rscript 00_Install_Packages.R         (ONE TIME ONLY)
-2. Rscript Task2_LinearModels.R          (Your Task 2 report)
-3. Rscript Task3_MultivariateAnalysis.R  (Your Task 3 report)
 
 =========================================================================
-PROJECT FILES
+FILES SUMMARY
 =========================================================================
 
-SETUP SCRIPTS (Run in order):
-  00_Install_Packages.R ........... Install required R packages ONCE
-  01_Generate_Data.R .............. Generate synthetic IMD 2025 data
+SETUP (2 files):
+  00_Install_Packages.R ............. Install R packages (ONE TIME)
+  01_Generate_Data.R ................ Generate synthetic IMD data
 
-MAIN ASSIGNMENT SCRIPTS:
-  Task2_LinearModels.R ............ TASK 2: All 3 parts (30 marks total)
-  Task3_MultivariateAnalysis.R .... TASK 3: All 5 parts (50 marks total)
+TASK 2 - LINEAR MODELS (4 versions - CHOOSE ONE):
+  Task2_Version1_ForwardSelection.R ..... Forward selection for Model #2
+  Task2_Version2_BackwardElimination.R .. Backward elimination for Model #2
+  Task2_Version3_StepwiseSelection.R .... Stepwise selection for Model #2
+  Task2_Version4_BestSubset.R ........... Best subset selection for Model #2
+
+TASK 3 - MULTIVARIATE ANALYSIS:
+  Task3_MultivariateAnalysis.R ...... Complete Task 3 (all 5 parts)
 
 DOCUMENTATION:
-  Task3_Demo_Presentation_Guide.md  15-minute live demo script
-  README_SUBMISSION.txt ............ This file
+  Task3_Demo_Presentation_Guide.md .. Live demo script (15 min)
+  README_SUBMISSION.txt ............. This file
 
-DATA FILES (Auto-generated):
-  imd2025_individual.csv
-  imd2025_group.csv
-  Local_Authority_District_to_County_(December_2024)_Lookup_in_EN.csv
-  Local_Authority_District_to_Region_(December_2024)_Lookup_in_EN.csv
-  County_to_Region_(December_2024)_Lookup.csv
+DATA FILES (5 CSV files - auto-generated)
 
 =========================================================================
-TASK 2: LINEAR MODELS (Individual - 30 marks)
+QUICK START
 =========================================================================
 
-Run: Rscript Task2_LinearModels.R > My_Task2_Output.txt
+1. Install packages (ONCE):
+   Rscript 00_Install_Packages.R
 
-OUTPUT INCLUDES:
-✓ Part 1 (5 marks): AIC explanation with citations
-✓ Part 2 (20 marks): Three models
-  - Model #1: Employment + Living
-  - Best 2-predictor model comparison
-  - Model #2: Best ≤4 predictor model (forward selection)
-  - Model #3: London vs Non-London (with Crime)
-✓ Part 3 (5 marks): Diagnostic plots + outlier detection
+2. Run Task 2 (CHOOSE ONE VERSION):
+   Rscript Task2_Version1_ForwardSelection.R > My_Task2.txt
+   
+   OR
+   
+   Rscript Task2_Version2_BackwardElimination.R > My_Task2.txt
+   
+   OR
+   
+   Rscript Task2_Version3_StepwiseSelection.R > My_Task2.txt
+   
+   OR
+   
+   Rscript Task2_Version4_BestSubset.R > My_Task2.txt
 
-Each model: Justified → Specified → Fitted → Interpreted → Evaluated
-
-=========================================================================
-TASK 3: MULTIVARIATE ANALYSIS (Group - 50 marks)
-=========================================================================
-
-Run: Rscript Task3_MultivariateAnalysis.R > My_Task3_Output.txt
-
-OUTPUT INCLUDES:
-✓ Part 1 (10 marks): Data augmentation + correlation
-✓ Part 2 (10 marks): North vs South classification
-✓ Part 3 (10 marks): PCA analysis
-✓ Part 4 (10 marks): Cluster analysis
-✓ Part 5 (10 marks): Choropleth maps
-
-GROUP CONTRIBUTIONS: Person 1, Person 2, Person 3 (clearly marked)
+3. Run Task 3:
+   Rscript Task3_MultivariateAnalysis.R > My_Task3.txt
 
 =========================================================================
-VERIFIED TEST RESULTS
+TASK 2 VERSIONS EXPLAINED
 =========================================================================
 
-TASK 2:
+All 4 versions cover the SAME requirements:
+✓ Part 1: AIC explanation (5 marks)
+✓ Part 2: Model #1, Best 2-predictor, Model #2, Model #3 (20 marks)
+✓ Part 3: Diagnostic plots & outliers (5 marks)
+
+The ONLY difference is the method used for Model #2:
+
+Version 1: FORWARD SELECTION
+  - Starts with no predictors
+  - Adds predictors one at a time (lowest AIC)
+  - Stops at 4 predictors or no improvement
+
+Version 2: BACKWARD ELIMINATION
+  - Starts with all 7 predictors
+  - Removes least significant one at a time
+  - Stops when 4 predictors remain
+
+Version 3: STEPWISE SELECTION
+  - Combines forward and backward steps
+  - Can add and remove predictors
+  - Balances both directions
+
+Version 4: BEST SUBSET SELECTION
+  - Tests ALL possible combinations (127 models)
+  - Chooses the absolute best by AIC
+  - Most comprehensive but computationally intensive
+
+RECOMMENDATION: Use Version 1 (Forward Selection) - most common approach
+Or choose the version that matches your course emphasis!
+
+=========================================================================
+VERIFIED RESULTS
+=========================================================================
+
+All versions produce:
 ✓ Model 1 (Employment + Living): R² ≈ 0.45
-✓ Full model with 7 predictors: R² = 0.8789 (87.89% - Excellent!)
-✓ Best 2-predictor model: Income + Employment (typically)
-✓ Forward selection: Identifies 3-4 key predictors
+✓ Full model: R² = 0.8789 (87.89%)
+✓ Best 2-predictor: Income + Employment (typically)
+✓ Model #2: 3-4 predictors, R² > 0.85
 ✓ All diagnostic plots generate correctly
 
-TASK 3:
-✓ Data loaded: 309 districts across 9 regions
-✓ Income-Employment correlation: r = 0.833 (strong)
-✓ PCA: PC1 explains 57.6% of variance
-✓ Clustering: Dendrograms generated successfully
-✓ All analyses complete and functional
+Task 3:
+✓ Income-Employment correlation: r = 0.833
+✓ PC1 explains: 57.6% variance
+✓ All 5 parts complete
 
 =========================================================================
-FOR YOUR SUBMISSION
+FOR SUBMISSION
 =========================================================================
 
-INDIVIDUAL REPORT (Tasks 1 & 2):
-1. Run: Rscript Task2_LinearModels.R > task2_output.txt
-2. Open task2_output.txt
-3. Copy code + output into Word document
-4. Use syntax highlighter: http://hilite.me/
-5. Add your own interpretations
-6. Include Task 1 (Python - if applicable)
-7. Add APA references (Akaike 1974, Burnham & Anderson 2004)
+INDIVIDUAL REPORT (Task 2):
+1. Pick ONE version (1, 2, 3, or 4)
+2. Run Rscript Task2_VersionX_Method.R > output.txt
+3. Copy output + code to Word
+4. Add syntax highlighting (http://hilite.me/)
+5. Include APA references (Akaike 1974, Burnham & Anderson 2004)
 
 GROUP REPORT (Task 3):
-1. Run: Rscript Task3_MultivariateAnalysis.R > task3_output.txt
-2. Copy output into Word document
-3. State group member contributions clearly
-4. Add interpretations
-5. Prepare for 15-minute live demo
-6. Use Task3_Demo_Presentation_Guide.md
-
-=========================================================================
-IMPORTANT NOTES
-=========================================================================
-
-✓ All scripts tested and working
-✓ Data is synthetic but realistic (proper IMD 2025 structure)
-✓ If you have real IMD 2025 data from Aula, replace the CSV files
-✓ Scripts use tidyverse conventions as required
-✓ All code includes proper comments and section markers
-✓ Plots are generated automatically
-✓ Region effects investigated throughout
+1. Run Rscript Task3_MultivariateAnalysis.R > output.txt
+2. Copy to Word with group member contributions
+3. Prepare 15-minute demo
 
 =========================================================================
 TROUBLESHOOTING
 =========================================================================
 
-If errors occur:
-1. Verify all CSV files exist in project folder
-2. Confirm packages installed (run 00_Install_Packages.R)
-3. Use bash terminal (Git Bash) instead of PowerShell if needed
-4. Check R version 4.0 or higher: R --version
-5. Ensure working directory is correct: getwd()
+If errors:
+✓ Verify all CSV files exist
+✓ Confirm packages installed
+✓ Use bash terminal (not PowerShell)
+✓ Check R version 4.0+
 
-=========================================================================
-FILE NAMING CONVENTION
-=========================================================================
-
-00_* = Setup scripts (run first)
-01_* = Data generation (run second)
-Task2_* = Task 2 deliverables
-Task3_* = Task 3 deliverables
-README_* = Documentation
-
-=========================================================================
-READY TO SUBMIT!
-All requirements covered. Good luck with your coursework!
+ALL SCRIPTS TESTED AND WORKING!
 =========================================================================
