@@ -192,10 +192,10 @@ centroids <- data_north_south %>%
 data_north_south <- data_north_south %>%
   rowwise() %>%
   mutate(
-    dist_to_north = sqrt((get(best_2_vars[1]) - centroids$[[best_2_vars[1]]][centroids$Location == "North"])^2 +
-                         (get(best_2_vars[2]) - centroids$[[best_2_vars[2]]][centroids$Location == "North"])^2),
-    dist_to_south = sqrt((get(best_2_vars[1]) - centroids$[[best_2_vars[1]]][centroids$Location == "South"])^2 +
-                         (get(best_2_vars[2]) - centroids$[[best_2_vars[2]]][centroids$Location == "South"])^2),
+    dist_to_north = sqrt((get(best_2_vars[1]) - centroids[[best_2_vars[1]]][centroids$Location == "North"])^2 +
+                         (get(best_2_vars[2]) - centroids[[best_2_vars[2]]][centroids$Location == "North"])^2),
+    dist_to_south = sqrt((get(best_2_vars[1]) - centroids[[best_2_vars[1]]][centroids$Location == "South"])^2 +
+                         (get(best_2_vars[2]) - centroids[[best_2_vars[2]]][centroids$Location == "South"])^2),
     ambiguity = abs(dist_to_north - dist_to_south)
   ) %>%
   ungroup()
