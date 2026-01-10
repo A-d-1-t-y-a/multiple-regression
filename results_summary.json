@@ -1,0 +1,28 @@
+{
+    "model_architecture": "LSTM (2 layers, 32 units)",
+    "dataset": "S&P 500 (^GSPC)",
+    "target_type": "next_day_return",
+    "training_samples": 1690,
+    "validation_samples": 346,
+    "test_samples": 347,
+    "lookback_period": 20,
+    "features": [
+        "Returns",
+        "SMA_20_Ratio",
+        "SMA_50_Ratio",
+        "RSI",
+        "Volume_Norm"
+    ],
+    "returns_metrics": {
+        "test_r2": 0.008099824271478484,
+        "test_rmse": 0.010777715281766815,
+        "test_directional_accuracy": 50.0
+    },
+    "price_metrics": {
+        "test_rmse": 61.27343335297114,
+        "test_mae": 40.668509469772886
+    },
+    "training_epochs": 45,
+    "best_val_loss": 0.004950790200382471,
+    "created_date": "2026-01-10 21:13:13"
+}
